@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 10, 2025, 11:10:29 AM
+    Author     : hakus
+*/
+
+body {
+    background-color: #f8f9fa;
+}
+.registration-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3a3a3a;
+}
+.form-header h2 {
+    font-weight: 600;
+}
+.form-header p {
+    color: #6c757d;
+}
+.form-label {
+    font-weight: 500;
+}
+.input-group-text {
+    background-color: #f8f9fa;
+}
+.password-container {
+    position: relative;
+}
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d;
+    z-index: 10;
+}
+.btn-register {
+    background-color: #4267B2;
+    border-color: #4267B2;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.btn-register:hover {
+    background-color: #365899;
+    border-color: #365899;
+}
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.iti {
+    width: 100%;
+}
+#registration-feedback {
+    display: none;
+    margin-top: 15px;
+}
+.loading-spinner {
+    display: none;
+    margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+<!-- File: WEB-INF/web.xml -->
+
+<web-app>
+    <display-name>SOMA LMS</display-name>
+
+    <welcome-file-list>
+        <welcome-file>register.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
